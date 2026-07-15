@@ -1,5 +1,7 @@
 # AI-Assisted Development Governance
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 A Hermes Skill distilled from *VibeCoding真解* for personal AI-assisted software development.
 
 It helps an AI assistant preserve the speed of Vibe Coding while adding the engineering judgment needed for code that will be maintained, reused, or exposed to real users.
