@@ -43,6 +43,15 @@ After installation, start a new session or run:
 /reload-skills
 ```
 
+## Multi-Platform Adapters
+
+This repository now includes adapter documents for non-Hermes AI coding tools:
+
+- `adapters/cursor/CURSOR_RULES.md` — for Cursor project rules or `.cursorrules`
+- `adapters/codex/CODEX_AGENT.md` — for Codex-style coding agents and similar agent instruction systems
+
+These adapters reuse the same governance model — `Vibe`, `Validation`, `Engineering` — but remove Hermes-specific commands and tool references.
+
 ## Use It
 
 Explicitly load it in a session:

@@ -43,6 +43,15 @@ hermes skills install https://raw.githubusercontent.com/22kkkhhh/ai-assisted-dev
 /reload-skills
 ```
 
+## 多平台适配
+
+仓库现在额外提供了给非 Hermes AI 编码工具使用的适配文档：
+
+- `adapters/cursor/CURSOR_RULES.md` —— 用于 Cursor 的项目规则或 `.cursorrules`
+- `adapters/codex/CODEX_AGENT.md` —— 用于 Codex 风格 coding agent 或类似代理系统
+
+这些适配版保留同一套治理模型：`Vibe / Validation / Engineering`，但去掉了 Hermes 专用命令和工具约定。
+
 ## 使用方式
 
 在会话中显式加载：
