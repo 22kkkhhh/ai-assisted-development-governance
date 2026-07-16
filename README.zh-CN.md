@@ -50,7 +50,7 @@ hermes skills install https://raw.githubusercontent.com/22kkkhhh/ai-assisted-dev
 - `adapters/cursor/CURSOR_RULES.md` —— 用于 Cursor 的项目规则或 `.cursorrules`
 - `adapters/codex/CODEX_AGENT.md` —— 用于 Codex 风格 coding agent 或类似代理系统
 
-这些适配版保留同一套治理模型：`Vibe / Validation / Engineering`，但去掉了 Hermes 专用命令和工具约定。
+这些适配版保留同一套治理模型：`Vibe / Validation / Engineering`，但去掉了 Hermes 专用命令和工具约定。每个适配文档也包含了具体使用示例。
 
 ## 使用方式
 

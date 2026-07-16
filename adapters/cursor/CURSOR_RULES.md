@@ -109,3 +109,46 @@ After making changes, report:
 - Prefer minimal viable implementation before broad expansion.
 - Avoid over-engineering for personal projects unless the risk justifies it.
 - If information is missing, do safe discovery first and ask only the questions that would materially change the solution.
+
+## Cursor Usage Example
+
+### Option 1: `.cursorrules`
+
+Create a file named `.cursorrules` at the project root and paste the contents of this document into it.
+
+Example:
+
+```text
+# .cursorrules
+<paste the contents of CURSOR_RULES.md here>
+```
+
+### Option 2: Cursor Project Rules / Instructions
+
+If you use Cursor's project-level rules UI, paste this document into the project's rules/instructions field.
+
+### Example Request in Cursor
+
+```text
+Please follow the project rules.
+
+I want to add deduplication to the article generation flow.
+First inspect the existing code and tests.
+Then decide whether this is Vibe, Validation, or Engineering mode.
+Do not code yet. Only report:
+1. mode
+2. reasons
+3. minimum implementation plan
+4. verification approach
+```
+
+### Recommended Cursor Workflow
+
+1. Add this document to `.cursorrules` or project rules.
+2. Ask Cursor to inspect the current codebase before editing.
+3. Ask for mode classification before major changes.
+4. After implementation, explicitly ask Cursor to report:
+   - what changed
+   - what was tested
+   - what remains unverified
+   - remaining risks
